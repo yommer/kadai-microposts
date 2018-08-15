@@ -53,3 +53,9 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'kaminari'
+
+source 'https://rubygems.org'
+
+gem 'counter_culture', '~> 1.8'
+
+gem 'pry-byebug', group: :development
