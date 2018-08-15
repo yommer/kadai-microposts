@@ -9,6 +9,7 @@ Rails.application.routes.draw do
   get 'likes/destroy'
   
   get 'signup', to: 'users#new'
+  
   resources :users, only: [:index, :show, :new, :create] do
     member do
       get :followings
